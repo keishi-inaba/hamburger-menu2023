@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburger Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <!-- toggle -->
+    <span class="menu-toggle">
+      <i class="menu-open fa fa-bars fa-lg"></i>
+      <i class="menu-close fa fa-times fa-lg"></i>
+    </span>
+
+    <!-- menu item -->
+    <ul class="menu-items">
+      <li><a href="#"><i class="icon fa fa-signal fa-2x"></i> サイトについて</a></li>
+      <li><a href="#"><i class="icon fa fa-newspaper fa-2x"></i> ブログ</a></li>
+      <li><a href="#"><i class="icon fa fa-heart fa-2x"></i> オンライン相談</a></li>
+    </ul>
+
+    <!-- content -->
+    <main class="content">
+      <div class="content-inner">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quidem esse expedita impedit deserunt, corrupti, suscipit consequatur illo sit tenetur perspiciatis voluptate recusandae hic. Ullam molestiae ad, cupiditate quasi nihil blanditiis excepturi aspernatur maiores cumque, a facere dolores repudiandae, amet at dolorum et ipsum. Minima eos natus iure iste ad assumenda non dolorum cumque accusantium ab, incidunt atque, pariatur eligendi hic adipisci similique dolores quia praesentium corrupti. Sapiente voluptas ab est blanditiis. Numquam reprehenderit eligendi modi laboriosam expedita nesciunt officia labore nostrum ea impedit quidem dolor magni nemo deleniti at, repudiandae vitae, vel consectetur quisquam earum! Qui blanditiis pariatur aliquid omnis sint atque eaque non voluptatum unde distinctio reiciendis accusamus soluta optio praesentium error cumque culpa, molestiae dicta. Quasi excepturi animi repudiandae nisi ut voluptas cumque temporibus commodi impedit sed veritatis nobis inventore beatae adipisci, perspiciatis facilis fugiat, eius maxime sunt quos doloribus ullam omnis. Necessitatibus saepe cupiditate officiis repellendus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quidem esse expedita impedit deserunt, corrupti, suscipit consequatur illo sit tenetur perspiciatis voluptate recusandae hic. Ullam molestiae ad, cupiditate quasi nihil blanditiis excepturi aspernatur maiores cumque, a facere dolores repudiandae, amet at dolorum et ipsum. Minima eos natus iure iste ad assumenda non dolorum cumque accusantium ab, incidunt atque, pariatur eligendi hic adipisci similique dolores quia praesentium corrupti. Sapiente voluptas ab est blanditiis. Numquam reprehenderit eligendi modi laboriosam expedita nesciunt officia labore nostrum ea impedit quidem dolor magni nemo deleniti at, repudiandae vitae, vel consectetur quisquam earum! Qui blanditiis pariatur aliquid omnis sint atque eaque non voluptatum unde distinctio reiciendis accusamus soluta optio praesentium error cumque culpa, molestiae dicta. Quasi excepturi animi repudiandae nisi ut voluptas cumque temporibus commodi impedit sed veritatis nobis inventore beatae adipisci, perspiciatis facilis fugiat, eius maxime sunt quos doloribus ullam omnis. Necessitatibus saepe cupiditate officiis repellendus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quidem esse expedita impedit deserunt, corrupti, suscipit consequatur illo sit tenetur perspiciatis voluptate recusandae hic. Ullam molestiae ad, cupiditate quasi nihil blanditiis excepturi aspernatur maiores cumque, a facere dolores repudiandae, amet at dolorum et ipsum. Minima eos natus iure iste ad assumenda non dolorum cumque accusantium ab, incidunt atque, pariatur eligendi hic adipisci similique dolores quia praesentium corrupti. Sapiente voluptas ab est blanditiis. Numquam reprehenderit eligendi modi laboriosam expedita nesciunt officia labore nostrum ea impedit quidem dolor magni nemo deleniti at, repudiandae vitae, vel consectetur quisquam earum! Qui blanditiis pariatur aliquid omnis sint atque eaque non voluptatum unde distinctio reiciendis accusamus soluta optio praesentium error cumque culpa, molestiae dicta. Quasi excepturi animi repudiandae nisi ut voluptas cumque temporibus commodi impedit sed veritatis nobis inventore beatae adipisci, perspiciatis facilis fugiat, eius maxime sunt quos doloribus ullam omnis. Necessitatibus saepe cupiditate officiis repellendus?
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <script>
+
+    const page = document.querySelector(".page");
+    const menuToggle = document.querySelector(".menu-toggle");
+
+    menuToggle.addEventListener("click", () => {
+      page.classList.toggle("rotate");
+    })
+  </script>
+</body>
+</html>
